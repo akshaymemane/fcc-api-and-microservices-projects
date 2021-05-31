@@ -1,9 +1,18 @@
 // server.js
 // where your node app starts
-
+let DB_URI='mongodb+srv://akshaymemane:root@fcc-akshaymemane.xvy0g.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
 // init project
 var express = require('express');
+var mongo = require('mongodb');
+var mongoose = require('mongoose');
 var app = express();
+var bodyParser = require('body-parser');
+var shortId = require('shortid');
+
+app.use(bodyParser.urlencoded({extended:false}));
+app.use(bodyParser.json());
+
+mongoose.connect(DB_URI,{useNewUrlParser:true,useUnifiedTopology:true});
 
 // enable CORS (https://en.wikipedia.org/wiki/Cross-origin_resource_sharing)
 // so that your API is remotely testable by FCC 
@@ -48,6 +57,10 @@ app.get("/api/whoami", function (req, res) {
   res.json({ipaddress: ip,language: lang,software: sw});
 });
 
+//URL Shortner Parser Microservice
+app.post("/api/shorturl", function (req, res) {
+  res.send(req.body.url);
+});
 
 // listen for requests :)
 var listener = app.listen(process.env.PORT || 3000, function () {

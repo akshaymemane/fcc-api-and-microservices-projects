@@ -38,6 +38,21 @@
           <code>{"ipaddress":"::ffff:159.20.14.100","language":"en-US,en;q=0.5",<br>"software":"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0"}</code>
         </p>
       </div>
+
+      <div class="row">
+        <h2>URL Shortener Microservice</h2>
+
+        <section>
+          <form action="api/shorturl" method="POST">
+            <fieldset>
+              <legend>URL Shortener</legend>
+              <label for="url_input">URL:</label>
+              <input id="url_input" type="text" name="url" placeholder="https://www.freecodecamp.org/" />
+              <input type="submit" value="POST URL" />
+            </fieldset>
+          </form>
+        </section>
+      </div>
     </div>
     <div class="footer">
       <p>
