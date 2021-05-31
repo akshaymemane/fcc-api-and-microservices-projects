@@ -58,8 +58,32 @@ app.get("/api/whoami", function (req, res) {
 });
 
 //URL Shortner Parser Microservice
+var ShortUrlModel = mongoose.model('ShortUrlModel',new mongoose.Schema({
+  original_url: String,
+  short_url: String
+}));
+
 app.post("/api/shorturl", function (req, res) {
-  res.send(req.body.url);
+  let requestUrl = req.body.url;
+  let shortUrl = shortId.generate();
+  let newUrl = new ShortUrlModel({
+    original_url:requestUrl,
+    short_url: shortUrl
+  });
+  newUrl.save((err,data)=>{
+    if(err) return console.log(err);
+    res.send({
+      original_url:requestUrl,
+      short_url:shortUrl
+    });
+  });
+});
+
+app.get('/api/shorturl/:url',(req,res)=>{
+  ShortUrlModel.find({short_url:req.params.url},(err,data)=>{
+    if(err) return console.log(err);
+    res.redirect(data[0].original_url);
+  });
 });
 
 // listen for requests :)
