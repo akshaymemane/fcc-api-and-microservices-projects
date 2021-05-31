@@ -24,7 +24,8 @@ app.get("/api/hello", function (req, res) {
   res.json({greeting: 'hello API'});
 });
 
-app.get("/api/:date?", function (req, res) {
+//Timestamp Microservice
+app.get("/api/timestamp/:date?", function (req, res) {
   let dateParam = req.params.date;
   if(parseInt(dateParam) > 10000){
     res.json({unix: new Date(parseInt(dateParam)).getTime(),utc:new Date(parseInt(dateParam)).toUTCString()});
@@ -36,9 +37,15 @@ app.get("/api/:date?", function (req, res) {
     res.json({unix: new Date(dateParam).getTime(),utc:new Date(dateParam).toUTCString()});
   }else{
     res.json({unix: new Date().getTime(),utc:new Date().toUTCString()});
-  }
-  // console.log(req.params.date);
-  
+  }  
+});
+
+//Request Header Parser Microservice
+app.get("/api/whoami", function (req, res) {
+  let ip = req.ip;
+  let lang = req.headers["accept-language"];
+  let sw = req.headers["user-agent"];
+  res.json({ipaddress: ip,language: lang,software: sw});
 });
 
 

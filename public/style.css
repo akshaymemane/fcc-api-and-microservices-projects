@@ -44,3 +44,7 @@ li {
 a {
 	color: #2574A9;
 }
+
+.row{
+	border-bottom: 1px solid black;
+}
