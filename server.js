@@ -26,6 +26,9 @@ app.get("/api/hello", function (req, res) {
 
 app.get("/api/:date?", function (req, res) {
   let dateParam = req.params.date;
+  if(!Date.parse(dateParam)){
+    res.json({ error : "Invalid Date" });
+  }
   if(dateParam){
     res.json({unix: new Date(dateParam).getTime(),utc:new Date(dateParam).toUTCString()});
   }else{
