@@ -126,8 +126,12 @@ app.post("/api/users/:_id/exercises",(req,res)=>{
   // }else{
   //   eDate = new Date().toDateString();
   // }
+
+  
   let userId = req.params._id;
   let {description,duration,date} = req.body;
+  date = date?new Date(date):new Date();
+  console.log("date=>",date);
   let newExercise = new ExerciseModel({
     userId,
     description,
@@ -135,17 +139,17 @@ app.post("/api/users/:_id/exercises",(req,res)=>{
     date
   });
 
-  Person.findById(req.params._id,(err,data)=>{
-    if(!data){
-      res.send("Unknown userId");
-    }else{
-      let username = data.username;
-      newExercise.save((err,data)=>{
-        if(err) return console.log(err);
-        res.json({userId,username,description,duration,date});
-      });
-    }
-  });
+  // Person.findById(req.params._id,(err,data)=>{
+  //   if(!data){
+  //     res.send("Unknown userId");
+  //   }else{
+  //     let username = data.username;
+  //     newExercise.save((err,data)=>{
+  //       if(err) return console.log(err);
+  //       res.json({userId,username,description,duration,date});
+  //     });
+  //   }
+  // });
 });
 
 app.get("/api/users/:_id/logs",(req,res)=>{
