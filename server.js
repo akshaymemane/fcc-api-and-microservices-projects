@@ -8,6 +8,8 @@ var mongoose = require('mongoose');
 var app = express();
 var bodyParser = require('body-parser');
 var shortId = require('shortid');
+var multer = require('multer');
+var upload = multer({dest : 'uploads/'})
 
 app.use(bodyParser.urlencoded({extended:false}));
 app.use(bodyParser.json());
@@ -96,6 +98,16 @@ app.get('/api/shorturl/:url',(req,res)=>{
     res.redirect(data[0].original_url);
   });
 });
+
+//File Metadata Microservice
+app.post("/api/fileanalyse", upload.single('upfile'), function (req, res) {
+  res.send({
+    name:req.file.originalname,
+    type:req.file.mimetype,
+    size:req.file.size
+  });
+});
+
 
 // listen for requests :)
 var listener = app.listen(process.env.PORT || 3000, function () {

@@ -1,0 +1,1487 @@
+[
+    {
+        "projectId": 1,
+        "projectName": "project 1",
+        "projectStartDate": null,
+        "projectEndDate": null,
+        "caseStudyList": [
+            {
+                "caseId": 1,
+                "caseProjectId": 1,
+                "caseName": "Case 1",
+                "caseData": [
+                    {
+                        "dataId": 148,
+                        "dataCaseId": 1,
+                        "dataPropertyId": 1,
+                        "dataSubArray1": "100",
+                        "dataSubArray2": null,
+                        "dataSubArray3": null,
+                        "property": {
+                            "propId": 1,
+                            "propSubCategoryId": 1,
+                            "propName": "Project Capacity (AC)",
+                            "propIsActive": true,
+                            "subCategory": {
+                                "subCategoryId": 1,
+                                "subCategoryMasterId": 1,
+                                "subCategoryName": "Project Capacity",
+                                "subCategoryIsActive": true,
+                                "category": {
+                                    "categoryId": 1,
+                                    "categoryName": "DC System Design Inputs",
+                                    "categoryIsActive": true
+                                }
+                            }
+                        },
+                        "caseStudy": {
+                            "caseId": 1,
+                            "caseProjectId": 1,
+                            "caseName": "Case 1"
+                        }
+                    },
+                    {
+                        "dataId": 149,
+                        "dataCaseId": 1,
+                        "dataPropertyId": 2,
+                        "dataSubArray1": "145",
+                        "dataSubArray2": null,
+                        "dataSubArray3": null,
+                        "property": {
+                            "propId": 2,
+                            "propSubCategoryId": 1,
+                            "propName": "Project Capacity (DC)",
+                            "propIsActive": true,
+                            "subCategory": {
+                                "subCategoryId": 1,
+                                "subCategoryMasterId": 1,
+                                "subCategoryName": "Project Capacity",
+                                "subCategoryIsActive": true,
+                                "category": {
+                                    "categoryId": 1,
+                                    "categoryName": "DC System Design Inputs",
+                                    "categoryIsActive": true
+                                }
+                            }
+                        },
+                        "caseStudy": {
+                            "caseId": 1,
+                            "caseProjectId": 1,
+                            "caseName": "Case 1"
+                        }
+                    },
+                    {
+                        "dataId": 150,
+                        "dataCaseId": 1,
+                        "dataPropertyId": 3,
+                        "dataSubArray1": "1.45",
+                        "dataSubArray2": null,
+                        "dataSubArray3": null,
+                        "property": {
+                            "propId": 3,
+                            "propSubCategoryId": 1,
+                            "propName": "Ratio",
+                            "propIsActive": true,
+                            "subCategory": {
+                                "subCategoryId": 1,
+                                "subCategoryMasterId": 1,
+                                "subCategoryName": "Project Capacity",
+                                "subCategoryIsActive": true,
+                                "category": {
+                                    "categoryId": 1,
+                                    "categoryName": "DC System Design Inputs",
+                                    "categoryIsActive": true
+                                }
+                            }
+                        },
+                        "caseStudy": {
+                            "caseId": 1,
+                            "caseProjectId": 1,
+                            "caseName": "Case 1"
+                        }
+                    },
+                    {
+                        "dataId": 151,
+                        "dataCaseId": 1,
+                        "dataPropertyId": 4,
+                        "dataSubArray1": "145",
+                        "dataSubArray2": "0",
+                        "dataSubArray3": "0",
+                        "property": {
+                            "propId": 4,
+                            "propSubCategoryId": 2,
+                            "propName": "Sub-Array Capacity (MWp)",
+                            "propIsActive": true,
+                            "subCategory": {
+                                "subCategoryId": 2,
+                                "subCategoryMasterId": 1,
+                                "subCategoryName": "PV Array Characteristics",
+                                "subCategoryIsActive": true,
+                                "category": {
+                                    "categoryId": 1,
+                                    "categoryName": "DC System Design Inputs",
+                                    "categoryIsActive": true
+                                }
+                            }
+                        },
+                        "caseStudy": {
+                            "caseId": 1,
+                            "caseProjectId": 1,
+                            "caseName": "Case 1"
+                        }
+                    },
+                    {
+                        "dataId": 152,
+                        "dataCaseId": 1,
+                        "dataPropertyId": 5,
+                        "dataSubArray1": "100.00",
+                        "dataSubArray2": "0.00",
+                        "dataSubArray3": "0.00",
+                        "property": {
+                            "propId": 5,
+                            "propSubCategoryId": 2,
+                            "propName": "Sub-Array Capacity (MW)",
+                            "propIsActive": true,
+                            "subCategory": {
+                                "subCategoryId": 2,
+                                "subCategoryMasterId": 1,
+                                "subCategoryName": "PV Array Characteristics",
+                                "subCategoryIsActive": true,
+                                "category": {
+                                    "categoryId": 1,
+                                    "categoryName": "DC System Design Inputs",
+                                    "categoryIsActive": true
+                                }
+                            }
+                        },
+                        "caseStudy": {
+                            "caseId": 1,
+                            "caseProjectId": 1,
+                            "caseName": "Case 1"
+                        }
+                    },
+                    {
+                        "dataId": 153,
+                        "dataCaseId": 1,
+                        "dataPropertyId": 6,
+                        "dataSubArray1": "Chint",
+                        "dataSubArray2": "JA-Solar",
+                        "dataSubArray3": "JA-Solar",
+                        "property": {
+                            "propId": 6,
+                            "propSubCategoryId": 2,
+                            "propName": "Module Make",
+                            "propIsActive": true,
+                            "subCategory": {
+                                "subCategoryId": 2,
+                                "subCategoryMasterId": 1,
+                                "subCategoryName": "PV Array Characteristics",
+                                "subCategoryIsActive": true,
+                                "category": {
+                                    "categoryId": 1,
+                                    "categoryName": "DC System Design Inputs",
+                                    "categoryIsActive": true
+                                }
+                            }
+                        },
+                        "caseStudy": {
+                            "caseId": 1,
+                            "caseProjectId": 1,
+                            "caseName": "Case 1"
+                        }
+                    },
+                    {
+                        "dataId": 154,
+                        "dataCaseId": 1,
+                        "dataPropertyId": 7,
+                        "dataSubArray1": "545",
+                        "dataSubArray2": "470",
+                        "dataSubArray3": "465",
+                        "property": {
+                            "propId": 7,
+                            "propSubCategoryId": 3,
+                            "propName": "Rating (Wp)",
+                            "propIsActive": true,
+                            "subCategory": {
+                                "subCategoryId": 3,
+                                "subCategoryMasterId": 1,
+                                "subCategoryName": "PV Module Datasheet",
+                                "subCategoryIsActive": true,
+                                "category": {
+                                    "categoryId": 1,
+                                    "categoryName": "DC System Design Inputs",
+                                    "categoryIsActive": true
+                                }
+                            }
+                        },
+                        "caseStudy": {
+                            "caseId": 1,
+                            "caseProjectId": 1,
+                            "caseName": "Case 1"
+                        }
+                    },
+                    {
+                        "dataId": 155,
+                        "dataCaseId": 1,
+                        "dataPropertyId": 8,
+                        "dataSubArray1": "Mono-facial",
+                        "dataSubArray2": "Mono-facial",
+                        "dataSubArray3": "Mono-facial",
+                        "property": {
+                            "propId": 8,
+                            "propSubCategoryId": 3,
+                            "propName": "Type of Module",
+                            "propIsActive": true,
+                            "subCategory": {
+                                "subCategoryId": 3,
+                                "subCategoryMasterId": 1,
+                                "subCategoryName": "PV Module Datasheet",
+                                "subCategoryIsActive": true,
+                                "category": {
+                                    "categoryId": 1,
+                                    "categoryName": "DC System Design Inputs",
+                                    "categoryIsActive": true
+                                }
+                            }
+                        },
+                        "caseStudy": {
+                            "caseId": 1,
+                            "caseProjectId": 1,
+                            "caseName": "Case 1"
+                        }
+                    },
+                    {
+                        "dataId": 156,
+                        "dataCaseId": 1,
+                        "dataPropertyId": 9,
+                        "dataSubArray1": "41.93",
+                        "dataSubArray2": "0.00",
+                        "dataSubArray3": "0.00",
+                        "property": {
+                            "propId": 9,
+                            "propSubCategoryId": 3,
+                            "propName": "Vmax (V)",
+                            "propIsActive": true,
+                            "subCategory": {
+                                "subCategoryId": 3,
+                                "subCategoryMasterId": 1,
+                                "subCategoryName": "PV Module Datasheet",
+                                "subCategoryIsActive": true,
+                                "category": {
+                                    "categoryId": 1,
+                                    "categoryName": "DC System Design Inputs",
+                                    "categoryIsActive": true
+                                }
+                            }
+                        },
+                        "caseStudy": {
+                            "caseId": 1,
+                            "caseProjectId": 1,
+                            "caseName": "Case 1"
+                        }
+                    },
+                    {
+                        "dataId": 157,
+                        "dataCaseId": 1,
+                        "dataPropertyId": 10,
+                        "dataSubArray1": "13.81",
+                        "dataSubArray2": "0.00",
+                        "dataSubArray3": "0.00",
+                        "property": {
+                            "propId": 10,
+                            "propSubCategoryId": 3,
+                            "propName": "ISC (A)",
+                            "propIsActive": true,
+                            "subCategory": {
+                                "subCategoryId": 3,
+                                "subCategoryMasterId": 1,
+                                "subCategoryName": "PV Module Datasheet",
+                                "subCategoryIsActive": true,
+                                "category": {
+                                    "categoryId": 1,
+                                    "categoryName": "DC System Design Inputs",
+                                    "categoryIsActive": true
+                                }
+                            }
+                        },
+                        "caseStudy": {
+                            "caseId": 1,
+                            "caseProjectId": 1,
+                            "caseName": "Case 1"
+                        }
+                    },
+                    {
+                        "dataId": 158,
+                        "dataCaseId": 1,
+                        "dataPropertyId": 11,
+                        "dataSubArray1": "49.90",
+                        "dataSubArray2": "0.00",
+                        "dataSubArray3": "0.00",
+                        "property": {
+                            "propId": 11,
+                            "propSubCategoryId": 3,
+                            "propName": "VOC (V)",
+                            "propIsActive": true,
+                            "subCategory": {
+                                "subCategoryId": 3,
+                                "subCategoryMasterId": 1,
+                                "subCategoryName": "PV Module Datasheet",
+                                "subCategoryIsActive": true,
+                                "category": {
+                                    "categoryId": 1,
+                                    "categoryName": "DC System Design Inputs",
+                                    "categoryIsActive": true
+                                }
+                            }
+                        },
+                        "caseStudy": {
+                            "caseId": 1,
+                            "caseProjectId": 1,
+                            "caseName": "Case 1"
+                        }
+                    },
+                    {
+                        "dataId": 159,
+                        "dataCaseId": 1,
+                        "dataPropertyId": 12,
+                        "dataSubArray1": "29",
+                        "dataSubArray2": "28",
+                        "dataSubArray3": "28",
+                        "property": {
+                            "propId": 12,
+                            "propSubCategoryId": 4,
+                            "propName": "PV Modules in a String",
+                            "propIsActive": true,
+                            "subCategory": {
+                                "subCategoryId": 4,
+                                "subCategoryMasterId": 1,
+                                "subCategoryName": "PVSyst Report",
+                                "subCategoryIsActive": true,
+                                "category": {
+                                    "categoryId": 1,
+                                    "categoryName": "DC System Design Inputs",
+                                    "categoryIsActive": true
+                                }
+                            }
+                        },
+                        "caseStudy": {
+                            "caseId": 1,
+                            "caseProjectId": 1,
+                            "caseName": "Case 1"
+                        }
+                    },
+                    {
+                        "dataId": 160,
+                        "dataCaseId": 1,
+                        "dataPropertyId": 13,
+                        "dataSubArray1": "1215.97",
+                        "dataSubArray2": "1081.00",
+                        "dataSubArray3": "1078.00",
+                        "property": {
+                            "propId": 13,
+                            "propSubCategoryId": 4,
+                            "propName": "String Voltage (Vmpp)",
+                            "propIsActive": true,
+                            "subCategory": {
+                                "subCategoryId": 4,
+                                "subCategoryMasterId": 1,
+                                "subCategoryName": "PVSyst Report",
+                                "subCategoryIsActive": true,
+                                "category": {
+                                    "categoryId": 1,
+                                    "categoryName": "DC System Design Inputs",
+                                    "categoryIsActive": true
+                                }
+                            }
+                        },
+                        "caseStudy": {
+                            "caseId": 1,
+                            "caseProjectId": 1,
+                            "caseName": "Case 1"
+                        }
+                    },
+                    {
+                        "dataId": 161,
+                        "dataCaseId": 1,
+                        "dataPropertyId": 14,
+                        "dataSubArray1": "13.00",
+                        "dataSubArray2": "11.16",
+                        "dataSubArray3": "11.08",
+                        "property": {
+                            "propId": 14,
+                            "propSubCategoryId": 4,
+                            "propName": "String Current (Impp)",
+                            "propIsActive": true,
+                            "subCategory": {
+                                "subCategoryId": 4,
+                                "subCategoryMasterId": 1,
+                                "subCategoryName": "PVSyst Report",
+                                "subCategoryIsActive": true,
+                                "category": {
+                                    "categoryId": 1,
+                                    "categoryName": "DC System Design Inputs",
+                                    "categoryIsActive": true
+                                }
+                            }
+                        },
+                        "caseStudy": {
+                            "caseId": 1,
+                            "caseProjectId": 1,
+                            "caseName": "Case 1"
+                        }
+                    },
+                    {
+                        "dataId": 162,
+                        "dataCaseId": 1,
+                        "dataPropertyId": 15,
+                        "dataSubArray1": "266056",
+                        "dataSubArray2": "0",
+                        "dataSubArray3": "0",
+                        "property": {
+                            "propId": 15,
+                            "propSubCategoryId": 4,
+                            "propName": "Total PV Modules",
+                            "propIsActive": true,
+                            "subCategory": {
+                                "subCategoryId": 4,
+                                "subCategoryMasterId": 1,
+                                "subCategoryName": "PVSyst Report",
+                                "subCategoryIsActive": true,
+                                "category": {
+                                    "categoryId": 1,
+                                    "categoryName": "DC System Design Inputs",
+                                    "categoryIsActive": true
+                                }
+                            }
+                        },
+                        "caseStudy": {
+                            "caseId": 1,
+                            "caseProjectId": 1,
+                            "caseName": "Case 1"
+                        }
+                    },
+                    {
+                        "dataId": 163,
+                        "dataCaseId": 1,
+                        "dataPropertyId": 16,
+                        "dataSubArray1": "9175",
+                        "dataSubArray2": "0",
+                        "dataSubArray3": "0",
+                        "property": {
+                            "propId": 16,
+                            "propSubCategoryId": 4,
+                            "propName": "Total Nos. of Strings",
+                            "propIsActive": true,
+                            "subCategory": {
+                                "subCategoryId": 4,
+                                "subCategoryMasterId": 1,
+                                "subCategoryName": "PVSyst Report",
+                                "subCategoryIsActive": true,
+                                "category": {
+                                    "categoryId": 1,
+                                    "categoryName": "DC System Design Inputs",
+                                    "categoryIsActive": true
+                                }
+                            }
+                        },
+                        "caseStudy": {
+                            "caseId": 1,
+                            "caseProjectId": 1,
+                            "caseName": "Case 1"
+                        }
+                    },
+                    {
+                        "dataId": 164,
+                        "dataCaseId": 1,
+                        "dataPropertyId": 17,
+                        "dataSubArray1": "1760.54",
+                        "dataSubArray2": "1809",
+                        "dataSubArray3": "1809",
+                        "property": {
+                            "propId": 17,
+                            "propSubCategoryId": 5,
+                            "propName": "Specific Generation (kWh/kWp/Year)",
+                            "propIsActive": true,
+                            "subCategory": {
+                                "subCategoryId": 5,
+                                "subCategoryMasterId": 1,
+                                "subCategoryName": "PV Plant Performance",
+                                "subCategoryIsActive": true,
+                                "category": {
+                                    "categoryId": 1,
+                                    "categoryName": "DC System Design Inputs",
+                                    "categoryIsActive": true
+                                }
+                            }
+                        },
+                        "caseStudy": {
+                            "caseId": 1,
+                            "caseProjectId": 1,
+                            "caseName": "Case 1"
+                        }
+                    },
+                    {
+                        "dataId": 165,
+                        "dataCaseId": 1,
+                        "dataPropertyId": 18,
+                        "dataSubArray1": "255278.00",
+                        "dataSubArray2": "230319.00",
+                        "dataSubArray3": "113440.00",
+                        "property": {
+                            "propId": 18,
+                            "propSubCategoryId": 5,
+                            "propName": "Energy Unit Generation (MWh/Year)",
+                            "propIsActive": true,
+                            "subCategory": {
+                                "subCategoryId": 5,
+                                "subCategoryMasterId": 1,
+                                "subCategoryName": "PV Plant Performance",
+                                "subCategoryIsActive": true,
+                                "category": {
+                                    "categoryId": 1,
+                                    "categoryName": "DC System Design Inputs",
+                                    "categoryIsActive": true
+                                }
+                            }
+                        },
+                        "caseStudy": {
+                            "caseId": 1,
+                            "caseProjectId": 1,
+                            "caseName": "Case 1"
+                        }
+                    },
+                    {
+                        "dataId": 166,
+                        "dataCaseId": 1,
+                        "dataPropertyId": 19,
+                        "dataSubArray1": "80.92",
+                        "dataSubArray2": "83.18",
+                        "dataSubArray3": "83.18",
+                        "property": {
+                            "propId": 19,
+                            "propSubCategoryId": 5,
+                            "propName": "Performance Ratio (% PR)",
+                            "propIsActive": true,
+                            "subCategory": {
+                                "subCategoryId": 5,
+                                "subCategoryMasterId": 1,
+                                "subCategoryName": "PV Plant Performance",
+                                "subCategoryIsActive": true,
+                                "category": {
+                                    "categoryId": 1,
+                                    "categoryName": "DC System Design Inputs",
+                                    "categoryIsActive": true
+                                }
+                            }
+                        },
+                        "caseStudy": {
+                            "caseId": 1,
+                            "caseProjectId": 1,
+                            "caseName": "Case 1"
+                        }
+                    },
+                    {
+                        "dataId": 167,
+                        "dataCaseId": 1,
+                        "dataPropertyId": 20,
+                        "dataSubArray1": "20.10%",
+                        "dataSubArray2": "26",
+                        "dataSubArray3": "26",
+                        "property": {
+                            "propId": 20,
+                            "propSubCategoryId": 5,
+                            "propName": "Capacity Utilization Factor (CUF) (DC) (%)",
+                            "propIsActive": true,
+                            "subCategory": {
+                                "subCategoryId": 5,
+                                "subCategoryMasterId": 1,
+                                "subCategoryName": "PV Plant Performance",
+                                "subCategoryIsActive": true,
+                                "category": {
+                                    "categoryId": 1,
+                                    "categoryName": "DC System Design Inputs",
+                                    "categoryIsActive": true
+                                }
+                            }
+                        },
+                        "caseStudy": {
+                            "caseId": 1,
+                            "caseProjectId": 1,
+                            "caseName": "Case 1"
+                        }
+                    },
+                    {
+                        "dataId": 168,
+                        "dataCaseId": 1,
+                        "dataPropertyId": 21,
+                        "dataSubArray1": "29.14%",
+                        "dataSubArray2": "23",
+                        "dataSubArray3": "23",
+                        "property": {
+                            "propId": 21,
+                            "propSubCategoryId": 5,
+                            "propName": "Capacity Utilization Factor (CUF) (AC) (%)",
+                            "propIsActive": true,
+                            "subCategory": {
+                                "subCategoryId": 5,
+                                "subCategoryMasterId": 1,
+                                "subCategoryName": "PV Plant Performance",
+                                "subCategoryIsActive": true,
+                                "category": {
+                                    "categoryId": 1,
+                                    "categoryName": "DC System Design Inputs",
+                                    "categoryIsActive": true
+                                }
+                            }
+                        },
+                        "caseStudy": {
+                            "caseId": 1,
+                            "caseProjectId": 1,
+                            "caseName": "Case 1"
+                        }
+                    },
+                    {
+                        "dataId": 169,
+                        "dataCaseId": 1,
+                        "dataPropertyId": 22,
+                        "dataSubArray1": "0",
+                        "dataSubArray2": "0.7",
+                        "dataSubArray3": "0.7",
+                        "property": {
+                            "propId": 22,
+                            "propSubCategoryId": 5,
+                            "propName": "1st Year Degradation (%)",
+                            "propIsActive": true,
+                            "subCategory": {
+                                "subCategoryId": 5,
+                                "subCategoryMasterId": 1,
+                                "subCategoryName": "PV Plant Performance",
+                                "subCategoryIsActive": true,
+                                "category": {
+                                    "categoryId": 1,
+                                    "categoryName": "DC System Design Inputs",
+                                    "categoryIsActive": true
+                                }
+                            }
+                        },
+                        "caseStudy": {
+                            "caseId": 1,
+                            "caseProjectId": 1,
+                            "caseName": "Case 1"
+                        }
+                    },
+                    {
+                        "dataId": 170,
+                        "dataCaseId": 1,
+                        "dataPropertyId": 23,
+                        "dataSubArray1": "0.5",
+                        "dataSubArray2": "0.7",
+                        "dataSubArray3": "0.7",
+                        "property": {
+                            "propId": 23,
+                            "propSubCategoryId": 5,
+                            "propName": "2nd to 25th Year Degradation (%)",
+                            "propIsActive": true,
+                            "subCategory": {
+                                "subCategoryId": 5,
+                                "subCategoryMasterId": 1,
+                                "subCategoryName": "PV Plant Performance",
+                                "subCategoryIsActive": true,
+                                "category": {
+                                    "categoryId": 1,
+                                    "categoryName": "DC System Design Inputs",
+                                    "categoryIsActive": true
+                                }
+                            }
+                        },
+                        "caseStudy": {
+                            "caseId": 1,
+                            "caseProjectId": 1,
+                            "caseName": "Case 1"
+                        }
+                    },
+                    {
+                        "dataId": 171,
+                        "dataCaseId": 1,
+                        "dataPropertyId": 24,
+                        "dataSubArray1": "Central",
+                        "dataSubArray2": null,
+                        "dataSubArray3": null,
+                        "property": {
+                            "propId": 24,
+                            "propSubCategoryId": 6,
+                            "propName": "Type of Inverter",
+                            "propIsActive": true,
+                            "subCategory": {
+                                "subCategoryId": 6,
+                                "subCategoryMasterId": 1,
+                                "subCategoryName": "Inverter System",
+                                "subCategoryIsActive": true,
+                                "category": {
+                                    "categoryId": 1,
+                                    "categoryName": "DC System Design Inputs",
+                                    "categoryIsActive": true
+                                }
+                            }
+                        },
+                        "caseStudy": {
+                            "caseId": 1,
+                            "caseProjectId": 1,
+                            "caseName": "Case 1"
+                        }
+                    },
+                    {
+                        "dataId": 172,
+                        "dataCaseId": 1,
+                        "dataPropertyId": 25,
+                        "dataSubArray1": "SUNGROW",
+                        "dataSubArray2": null,
+                        "dataSubArray3": null,
+                        "property": {
+                            "propId": 25,
+                            "propSubCategoryId": 6,
+                            "propName": "Inverter Make",
+                            "propIsActive": true,
+                            "subCategory": {
+                                "subCategoryId": 6,
+                                "subCategoryMasterId": 1,
+                                "subCategoryName": "Inverter System",
+                                "subCategoryIsActive": true,
+                                "category": {
+                                    "categoryId": 1,
+                                    "categoryName": "DC System Design Inputs",
+                                    "categoryIsActive": true
+                                }
+                            }
+                        },
+                        "caseStudy": {
+                            "caseId": 1,
+                            "caseProjectId": 1,
+                            "caseName": "Case 1"
+                        }
+                    },
+                    {
+                        "dataId": 173,
+                        "dataCaseId": 1,
+                        "dataPropertyId": 26,
+                        "dataSubArray1": "3125",
+                        "dataSubArray2": null,
+                        "dataSubArray3": null,
+                        "property": {
+                            "propId": 26,
+                            "propSubCategoryId": 6,
+                            "propName": "Inverter Rating (kW)",
+                            "propIsActive": true,
+                            "subCategory": {
+                                "subCategoryId": 6,
+                                "subCategoryMasterId": 1,
+                                "subCategoryName": "Inverter System",
+                                "subCategoryIsActive": true,
+                                "category": {
+                                    "categoryId": 1,
+                                    "categoryName": "DC System Design Inputs",
+                                    "categoryIsActive": true
+                                }
+                            }
+                        },
+                        "caseStudy": {
+                            "caseId": 1,
+                            "caseProjectId": 1,
+                            "caseName": "Case 1"
+                        }
+                    },
+                    {
+                        "dataId": 174,
+                        "dataCaseId": 1,
+                        "dataPropertyId": 27,
+                        "dataSubArray1": "32",
+                        "dataSubArray2": "0",
+                        "dataSubArray3": "0",
+                        "property": {
+                            "propId": 27,
+                            "propSubCategoryId": 6,
+                            "propName": "No of Inverters",
+                            "propIsActive": true,
+                            "subCategory": {
+                                "subCategoryId": 6,
+                                "subCategoryMasterId": 1,
+                                "subCategoryName": "Inverter System",
+                                "subCategoryIsActive": true,
+                                "category": {
+                                    "categoryId": 1,
+                                    "categoryName": "DC System Design Inputs",
+                                    "categoryIsActive": true
+                                }
+                            }
+                        },
+                        "caseStudy": {
+                            "caseId": 1,
+                            "caseProjectId": 1,
+                            "caseName": "Case 1"
+                        }
+                    },
+                    {
+                        "dataId": 175,
+                        "dataCaseId": 1,
+                        "dataPropertyId": 28,
+                        "dataSubArray1": "Yes",
+                        "dataSubArray2": null,
+                        "dataSubArray3": null,
+                        "property": {
+                            "propId": 28,
+                            "propSubCategoryId": 7,
+                            "propName": "Y Connectors",
+                            "propIsActive": true,
+                            "subCategory": {
+                                "subCategoryId": 7,
+                                "subCategoryMasterId": 1,
+                                "subCategoryName": "String Combiner Box (SCB)",
+                                "subCategoryIsActive": true,
+                                "category": {
+                                    "categoryId": 1,
+                                    "categoryName": "DC System Design Inputs",
+                                    "categoryIsActive": true
+                                }
+                            }
+                        },
+                        "caseStudy": {
+                            "caseId": 1,
+                            "caseProjectId": 1,
+                            "caseName": "Case 1"
+                        }
+                    },
+                    {
+                        "dataId": 176,
+                        "dataCaseId": 1,
+                        "dataPropertyId": 29,
+                        "dataSubArray1": "18",
+                        "dataSubArray2": null,
+                        "dataSubArray3": null,
+                        "property": {
+                            "propId": 29,
+                            "propSubCategoryId": 7,
+                            "propName": "No of Inputs Per SCB (Nos)",
+                            "propIsActive": true,
+                            "subCategory": {
+                                "subCategoryId": 7,
+                                "subCategoryMasterId": 1,
+                                "subCategoryName": "String Combiner Box (SCB)",
+                                "subCategoryIsActive": true,
+                                "category": {
+                                    "categoryId": 1,
+                                    "categoryName": "DC System Design Inputs",
+                                    "categoryIsActive": true
+                                }
+                            }
+                        },
+                        "caseStudy": {
+                            "caseId": 1,
+                            "caseProjectId": 1,
+                            "caseName": "Case 1"
+                        }
+                    },
+                    {
+                        "dataId": 177,
+                        "dataCaseId": 1,
+                        "dataPropertyId": 30,
+                        "dataSubArray1": "510",
+                        "dataSubArray2": "0",
+                        "dataSubArray3": "0",
+                        "property": {
+                            "propId": 30,
+                            "propSubCategoryId": 7,
+                            "propName": "Total No. of SCB (Nos)",
+                            "propIsActive": true,
+                            "subCategory": {
+                                "subCategoryId": 7,
+                                "subCategoryMasterId": 1,
+                                "subCategoryName": "String Combiner Box (SCB)",
+                                "subCategoryIsActive": true,
+                                "category": {
+                                    "categoryId": 1,
+                                    "categoryName": "DC System Design Inputs",
+                                    "categoryIsActive": true
+                                }
+                            }
+                        },
+                        "caseStudy": {
+                            "caseId": 1,
+                            "caseProjectId": 1,
+                            "caseName": "Case 1"
+                        }
+                    },
+                    {
+                        "dataId": 178,
+                        "dataCaseId": 1,
+                        "dataPropertyId": 31,
+                        "dataSubArray1": "-",
+                        "dataSubArray2": null,
+                        "dataSubArray3": null,
+                        "property": {
+                            "propId": 31,
+                            "propSubCategoryId": 8,
+                            "propName": "No of LT Panels Per Inverter Transformer",
+                            "propIsActive": true,
+                            "subCategory": {
+                                "subCategoryId": 8,
+                                "subCategoryMasterId": 1,
+                                "subCategoryName": "LT Panles for String Inverters",
+                                "subCategoryIsActive": true,
+                                "category": {
+                                    "categoryId": 1,
+                                    "categoryName": "DC System Design Inputs",
+                                    "categoryIsActive": true
+                                }
+                            }
+                        },
+                        "caseStudy": {
+                            "caseId": 1,
+                            "caseProjectId": 1,
+                            "caseName": "Case 1"
+                        }
+                    },
+                    {
+                        "dataId": 179,
+                        "dataCaseId": 1,
+                        "dataPropertyId": 32,
+                        "dataSubArray1": "-",
+                        "dataSubArray2": null,
+                        "dataSubArray3": null,
+                        "property": {
+                            "propId": 32,
+                            "propSubCategoryId": 8,
+                            "propName": "Total Nos of LT Panels",
+                            "propIsActive": true,
+                            "subCategory": {
+                                "subCategoryId": 8,
+                                "subCategoryMasterId": 1,
+                                "subCategoryName": "LT Panles for String Inverters",
+                                "subCategoryIsActive": true,
+                                "category": {
+                                    "categoryId": 1,
+                                    "categoryName": "DC System Design Inputs",
+                                    "categoryIsActive": true
+                                }
+                            }
+                        },
+                        "caseStudy": {
+                            "caseId": 1,
+                            "caseProjectId": 1,
+                            "caseName": "Case 1"
+                        }
+                    },
+                    {
+                        "dataId": 180,
+                        "dataCaseId": 1,
+                        "dataPropertyId": 33,
+                        "dataSubArray1": "-",
+                        "dataSubArray2": null,
+                        "dataSubArray3": null,
+                        "property": {
+                            "propId": 33,
+                            "propSubCategoryId": 8,
+                            "propName": "Nos of Inverter Connections Per LT Panel",
+                            "propIsActive": true,
+                            "subCategory": {
+                                "subCategoryId": 8,
+                                "subCategoryMasterId": 1,
+                                "subCategoryName": "LT Panles for String Inverters",
+                                "subCategoryIsActive": true,
+                                "category": {
+                                    "categoryId": 1,
+                                    "categoryName": "DC System Design Inputs",
+                                    "categoryIsActive": true
+                                }
+                            }
+                        },
+                        "caseStudy": {
+                            "caseId": 1,
+                            "caseProjectId": 1,
+                            "caseName": "Case 1"
+                        }
+                    },
+                    {
+                        "dataId": 181,
+                        "dataCaseId": 1,
+                        "dataPropertyId": 34,
+                        "dataSubArray1": "2",
+                        "dataSubArray2": null,
+                        "dataSubArray3": null,
+                        "property": {
+                            "propId": 34,
+                            "propSubCategoryId": 8,
+                            "propName": "Nos of String Inverter Connections Per Input",
+                            "propIsActive": true,
+                            "subCategory": {
+                                "subCategoryId": 8,
+                                "subCategoryMasterId": 1,
+                                "subCategoryName": "LT Panles for String Inverters",
+                                "subCategoryIsActive": true,
+                                "category": {
+                                    "categoryId": 1,
+                                    "categoryName": "DC System Design Inputs",
+                                    "categoryIsActive": true
+                                }
+                            }
+                        },
+                        "caseStudy": {
+                            "caseId": 1,
+                            "caseProjectId": 1,
+                            "caseName": "Case 1"
+                        }
+                    },
+                    {
+                        "dataId": 182,
+                        "dataCaseId": 1,
+                        "dataPropertyId": 35,
+                        "dataSubArray1": "-",
+                        "dataSubArray2": null,
+                        "dataSubArray3": null,
+                        "property": {
+                            "propId": 35,
+                            "propSubCategoryId": 8,
+                            "propName": "Nos of Inputs Required for LT Panel (Min)",
+                            "propIsActive": true,
+                            "subCategory": {
+                                "subCategoryId": 8,
+                                "subCategoryMasterId": 1,
+                                "subCategoryName": "LT Panles for String Inverters",
+                                "subCategoryIsActive": true,
+                                "category": {
+                                    "categoryId": 1,
+                                    "categoryName": "DC System Design Inputs",
+                                    "categoryIsActive": true
+                                }
+                            }
+                        },
+                        "caseStudy": {
+                            "caseId": 1,
+                            "caseProjectId": 1,
+                            "caseName": "Case 1"
+                        }
+                    },
+                    {
+                        "dataId": 183,
+                        "dataCaseId": 1,
+                        "dataPropertyId": 36,
+                        "dataSubArray1": "4",
+                        "dataSubArray2": "6",
+                        "dataSubArray3": "6",
+                        "property": {
+                            "propId": 36,
+                            "propSubCategoryId": 9,
+                            "propName": "DC Solar Cable Size (Sq.mm)",
+                            "propIsActive": true,
+                            "subCategory": {
+                                "subCategoryId": 9,
+                                "subCategoryMasterId": 1,
+                                "subCategoryName": "DC Cabling System",
+                                "subCategoryIsActive": true,
+                                "category": {
+                                    "categoryId": 1,
+                                    "categoryName": "DC System Design Inputs",
+                                    "categoryIsActive": true
+                                }
+                            }
+                        },
+                        "caseStudy": {
+                            "caseId": 1,
+                            "caseProjectId": 1,
+                            "caseName": "Case 1"
+                        }
+                    },
+                    {
+                        "dataId": 184,
+                        "dataCaseId": 1,
+                        "dataPropertyId": 37,
+                        "dataSubArray1": "750",
+                        "dataSubArray2": "80",
+                        "dataSubArray3": "80",
+                        "property": {
+                            "propId": 37,
+                            "propSubCategoryId": 9,
+                            "propName": "Average DC Solar Cable Length Per SCB (Meter)",
+                            "propIsActive": true,
+                            "subCategory": {
+                                "subCategoryId": 9,
+                                "subCategoryMasterId": 1,
+                                "subCategoryName": "DC Cabling System",
+                                "subCategoryIsActive": true,
+                                "category": {
+                                    "categoryId": 1,
+                                    "categoryName": "DC System Design Inputs",
+                                    "categoryIsActive": true
+                                }
+                            }
+                        },
+                        "caseStudy": {
+                            "caseId": 1,
+                            "caseProjectId": 1,
+                            "caseName": "Case 1"
+                        }
+                    },
+                    {
+                        "dataId": 185,
+                        "dataCaseId": 1,
+                        "dataPropertyId": 38,
+                        "dataSubArray1": "382500",
+                        "dataSubArray2": "0",
+                        "dataSubArray3": "0",
+                        "property": {
+                            "propId": 38,
+                            "propSubCategoryId": 9,
+                            "propName": "Total DC Solar Cable Length (Meter)",
+                            "propIsActive": true,
+                            "subCategory": {
+                                "subCategoryId": 9,
+                                "subCategoryMasterId": 1,
+                                "subCategoryName": "DC Cabling System",
+                                "subCategoryIsActive": true,
+                                "category": {
+                                    "categoryId": 1,
+                                    "categoryName": "DC System Design Inputs",
+                                    "categoryIsActive": true
+                                }
+                            }
+                        },
+                        "caseStudy": {
+                            "caseId": 1,
+                            "caseProjectId": 1,
+                            "caseName": "Case 1"
+                        }
+                    },
+                    {
+                        "dataId": 186,
+                        "dataCaseId": 1,
+                        "dataPropertyId": 39,
+                        "dataSubArray1": "3.3",
+                        "dataSubArray2": "3.3",
+                        "dataSubArray3": "3.3",
+                        "property": {
+                            "propId": 39,
+                            "propSubCategoryId": 9,
+                            "propName": "Voltage Rating (kV)",
+                            "propIsActive": true,
+                            "subCategory": {
+                                "subCategoryId": 9,
+                                "subCategoryMasterId": 1,
+                                "subCategoryName": "DC Cabling System",
+                                "subCategoryIsActive": true,
+                                "category": {
+                                    "categoryId": 1,
+                                    "categoryName": "DC System Design Inputs",
+                                    "categoryIsActive": true
+                                }
+                            }
+                        },
+                        "caseStudy": {
+                            "caseId": 1,
+                            "caseProjectId": 1,
+                            "caseName": "Case 1"
+                        }
+                    },
+                    {
+                        "dataId": 187,
+                        "dataCaseId": 1,
+                        "dataPropertyId": 40,
+                        "dataSubArray1": "AL",
+                        "dataSubArray2": "AL",
+                        "dataSubArray3": "AL",
+                        "property": {
+                            "propId": 40,
+                            "propSubCategoryId": 9,
+                            "propName": "Conductor Material",
+                            "propIsActive": true,
+                            "subCategory": {
+                                "subCategoryId": 9,
+                                "subCategoryMasterId": 1,
+                                "subCategoryName": "DC Cabling System",
+                                "subCategoryIsActive": true,
+                                "category": {
+                                    "categoryId": 1,
+                                    "categoryName": "DC System Design Inputs",
+                                    "categoryIsActive": true
+                                }
+                            }
+                        },
+                        "caseStudy": {
+                            "caseId": 1,
+                            "caseProjectId": 1,
+                            "caseName": "Case 1"
+                        }
+                    },
+                    {
+                        "dataId": 188,
+                        "dataCaseId": 1,
+                        "dataPropertyId": 41,
+                        "dataSubArray1": "1C X 300",
+                        "dataSubArray2": "1C X 300",
+                        "dataSubArray3": "1C X 300",
+                        "property": {
+                            "propId": 41,
+                            "propSubCategoryId": 9,
+                            "propName": "No Of Cores & Size",
+                            "propIsActive": true,
+                            "subCategory": {
+                                "subCategoryId": 9,
+                                "subCategoryMasterId": 1,
+                                "subCategoryName": "DC Cabling System",
+                                "subCategoryIsActive": true,
+                                "category": {
+                                    "categoryId": 1,
+                                    "categoryName": "DC System Design Inputs",
+                                    "categoryIsActive": true
+                                }
+                            }
+                        },
+                        "caseStudy": {
+                            "caseId": 1,
+                            "caseProjectId": 1,
+                            "caseName": "Case 1"
+                        }
+                    },
+                    {
+                        "dataId": 189,
+                        "dataCaseId": 1,
+                        "dataPropertyId": 42,
+                        "dataSubArray1": "XLPE",
+                        "dataSubArray2": "XLPE",
+                        "dataSubArray3": "XLPE",
+                        "property": {
+                            "propId": 42,
+                            "propSubCategoryId": 9,
+                            "propName": "Type of Insulation",
+                            "propIsActive": true,
+                            "subCategory": {
+                                "subCategoryId": 9,
+                                "subCategoryMasterId": 1,
+                                "subCategoryName": "DC Cabling System",
+                                "subCategoryIsActive": true,
+                                "category": {
+                                    "categoryId": 1,
+                                    "categoryName": "DC System Design Inputs",
+                                    "categoryIsActive": true
+                                }
+                            }
+                        },
+                        "caseStudy": {
+                            "caseId": 1,
+                            "caseProjectId": 1,
+                            "caseName": "Case 1"
+                        }
+                    },
+                    {
+                        "dataId": 190,
+                        "dataCaseId": 1,
+                        "dataPropertyId": 43,
+                        "dataSubArray1": "650",
+                        "dataSubArray2": "700",
+                        "dataSubArray3": "700",
+                        "property": {
+                            "propId": 43,
+                            "propSubCategoryId": 9,
+                            "propName": "Avg. DC Cable Length Per SCB (Meter)",
+                            "propIsActive": true,
+                            "subCategory": {
+                                "subCategoryId": 9,
+                                "subCategoryMasterId": 1,
+                                "subCategoryName": "DC Cabling System",
+                                "subCategoryIsActive": true,
+                                "category": {
+                                    "categoryId": 1,
+                                    "categoryName": "DC System Design Inputs",
+                                    "categoryIsActive": true
+                                }
+                            }
+                        },
+                        "caseStudy": {
+                            "caseId": 1,
+                            "caseProjectId": 1,
+                            "caseName": "Case 1"
+                        }
+                    },
+                    {
+                        "dataId": 191,
+                        "dataCaseId": 1,
+                        "dataPropertyId": 44,
+                        "dataSubArray1": "331500",
+                        "dataSubArray2": "0",
+                        "dataSubArray3": "0",
+                        "property": {
+                            "propId": 44,
+                            "propSubCategoryId": 9,
+                            "propName": "Total Length of DC Cable Between SCB & Central Inverter (Meter)",
+                            "propIsActive": true,
+                            "subCategory": {
+                                "subCategoryId": 9,
+                                "subCategoryMasterId": 1,
+                                "subCategoryName": "DC Cabling System",
+                                "subCategoryIsActive": true,
+                                "category": {
+                                    "categoryId": 1,
+                                    "categoryName": "DC System Design Inputs",
+                                    "categoryIsActive": true
+                                }
+                            }
+                        },
+                        "caseStudy": {
+                            "caseId": 1,
+                            "caseProjectId": 1,
+                            "caseName": "Case 1"
+                        }
+                    },
+                    {
+                        "dataId": 192,
+                        "dataCaseId": 1,
+                        "dataPropertyId": 45,
+                        "dataSubArray1": "Fixed",
+                        "dataSubArray2": null,
+                        "dataSubArray3": null,
+                        "property": {
+                            "propId": 45,
+                            "propSubCategoryId": 10,
+                            "propName": "Type of Structure",
+                            "propIsActive": true,
+                            "subCategory": {
+                                "subCategoryId": 10,
+                                "subCategoryMasterId": 1,
+                                "subCategoryName": "Module Mounting Structure (MMS)",
+                                "subCategoryIsActive": true,
+                                "category": {
+                                    "categoryId": 1,
+                                    "categoryName": "DC System Design Inputs",
+                                    "categoryIsActive": true
+                                }
+                            }
+                        },
+                        "caseStudy": {
+                            "caseId": 1,
+                            "caseProjectId": 1,
+                            "caseName": "Case 1"
+                        }
+                    },
+                    {
+                        "dataId": 193,
+                        "dataCaseId": 1,
+                        "dataPropertyId": 46,
+                        "dataSubArray1": "22.00",
+                        "dataSubArray2": null,
+                        "dataSubArray3": null,
+                        "property": {
+                            "propId": 46,
+                            "propSubCategoryId": 10,
+                            "propName": "MMS Weight Per MWp (Approx.) (MT/MWp)",
+                            "propIsActive": true,
+                            "subCategory": {
+                                "subCategoryId": 10,
+                                "subCategoryMasterId": 1,
+                                "subCategoryName": "Module Mounting Structure (MMS)",
+                                "subCategoryIsActive": true,
+                                "category": {
+                                    "categoryId": 1,
+                                    "categoryName": "DC System Design Inputs",
+                                    "categoryIsActive": true
+                                }
+                            }
+                        },
+                        "caseStudy": {
+                            "caseId": 1,
+                            "caseProjectId": 1,
+                            "caseName": "Case 1"
+                        }
+                    },
+                    {
+                        "dataId": 194,
+                        "dataCaseId": 1,
+                        "dataPropertyId": 47,
+                        "dataSubArray1": "12",
+                        "dataSubArray2": null,
+                        "dataSubArray3": null,
+                        "property": {
+                            "propId": 47,
+                            "propSubCategoryId": 10,
+                            "propName": "No of Piles Per MMS Table",
+                            "propIsActive": true,
+                            "subCategory": {
+                                "subCategoryId": 10,
+                                "subCategoryMasterId": 1,
+                                "subCategoryName": "Module Mounting Structure (MMS)",
+                                "subCategoryIsActive": true,
+                                "category": {
+                                    "categoryId": 1,
+                                    "categoryName": "DC System Design Inputs",
+                                    "categoryIsActive": true
+                                }
+                            }
+                        },
+                        "caseStudy": {
+                            "caseId": 1,
+                            "caseProjectId": 1,
+                            "caseName": "Case 1"
+                        }
+                    },
+                    {
+                        "dataId": 195,
+                        "dataCaseId": 1,
+                        "dataPropertyId": 48,
+                        "dataSubArray1": "No",
+                        "dataSubArray2": null,
+                        "dataSubArray3": null,
+                        "property": {
+                            "propId": 48,
+                            "propSubCategoryId": 10,
+                            "propName": "Anit-corossion Paint for MMS",
+                            "propIsActive": true,
+                            "subCategory": {
+                                "subCategoryId": 10,
+                                "subCategoryMasterId": 1,
+                                "subCategoryName": "Module Mounting Structure (MMS)",
+                                "subCategoryIsActive": true,
+                                "category": {
+                                    "categoryId": 1,
+                                    "categoryName": "DC System Design Inputs",
+                                    "categoryIsActive": true
+                                }
+                            }
+                        },
+                        "caseStudy": {
+                            "caseId": 1,
+                            "caseProjectId": 1,
+                            "caseName": "Case 1"
+                        }
+                    },
+                    {
+                        "dataId": 196,
+                        "dataCaseId": 1,
+                        "dataPropertyId": 49,
+                        "dataSubArray1": "Wet",
+                        "dataSubArray2": null,
+                        "dataSubArray3": null,
+                        "property": {
+                            "propId": 49,
+                            "propSubCategoryId": 11,
+                            "propName": "Type of Cleaning System",
+                            "propIsActive": true,
+                            "subCategory": {
+                                "subCategoryId": 11,
+                                "subCategoryMasterId": 1,
+                                "subCategoryName": "Module Cleaning System",
+                                "subCategoryIsActive": true,
+                                "category": {
+                                    "categoryId": 1,
+                                    "categoryName": "DC System Design Inputs",
+                                    "categoryIsActive": true
+                                }
+                            }
+                        },
+                        "caseStudy": {
+                            "caseId": 1,
+                            "caseProjectId": 1,
+                            "caseName": "Case 1"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]

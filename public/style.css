@@ -68,3 +68,17 @@ input[type='text'] {
 	width: 220px;
 	text-align: center;
 }
+
+input#button {
+	width: 230px;
+}
+
+.view {
+	position:relative;
+	margin: auto;
+	margin-top: 40px;
+	border: 1px  solid  #aaa;
+	padding: 20px;
+	width: 60%;
+	min-width: 400px;
+}
