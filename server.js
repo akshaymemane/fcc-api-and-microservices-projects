@@ -99,6 +99,92 @@ app.get('/api/shorturl/:url',(req,res)=>{
   });
 });
 
+//Exercise Tracker
+var Person = mongoose.model('Person',new mongoose.Schema({username:{type:String,unique:true}}));
+
+app.post("/api/users",(req,res)=>{
+  let newUser = new Person({username : req.body.username});
+  newUser.save((err,data)=>{
+    if(err){
+      res.send("Username already taken");
+    }
+    res.send(data);
+  });
+});
+
+var ExerciseModel = mongoose.model("ExerciseModel",new mongoose.Schema({
+  userId:String,
+  description:String,
+  duration:Number,
+  date:Date
+}));
+
+app.post("/api/users/:_id/exercises",(req,res)=>{
+  let newExercise = new ExerciseModel({
+    userId:req.params._id,
+    description: req.body.description,
+    duration: req.body.duration,
+    date: req.body.date
+  });
+
+  Person.findById(req.params._id,(err,data)=>{
+    if(!data){
+      res.send("Unknown userId");
+    }else{
+      let username = data.username;
+      newExercise.save((err,data)=>{
+        if(err) return console.log(err);
+        res.send({userId:data.userId,username:username,description:data.description,duration:data.duration,date:data.date});
+      });
+    }
+  });
+});
+
+app.get("/api/users/:_id/logs",(req,res)=>{
+  const {from,to,limit} = req.query;
+  const userId = req.params._id;
+  Person.findById(userId,(err,data)=>{
+    if(!data){
+      res.send("unknown userId");
+    }else{
+      const username = data.username;
+      ExerciseModel.find({userId},{date:{$gte:new Date(from),$lte:new Date(to)}}).select(["id","desctiption","duration","date"]).limit(+limit)
+      .exec((err,data)=>{
+        let customData = data.map(e=>{
+          let formattedDate = new Date(e.date).toDateString();
+          return {id:e.id,description:e.description,duration:e.duration,date:e.formattedDate};
+        });
+        if(!data){
+          res.send({
+            userId:userId,
+            username:username,
+            count:0,
+            log:[]
+          });
+        }else{
+          res.send({
+            userId:userId,
+            username:username,
+            count:data.length,
+            log:customData
+          });
+        }
+      });
+    }
+  });
+});
+
+app.get("/api/users",(req,res)=>{
+  Person.find((err,data)=>{
+    if(err){
+      res.send("No users found!");
+    }else{
+      res.send(data);
+    }
+  });
+});
+
+
 //File Metadata Microservice
 app.post("/api/fileanalyse", upload.single('upfile'), function (req, res) {
   res.send({
