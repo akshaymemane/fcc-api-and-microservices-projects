@@ -124,7 +124,7 @@ app.post("/api/users/:_id/exercises",(req,res)=>{
     userId:req.params._id,
     description: req.body.description,
     duration: req.body.duration,
-    date: req.body.date
+    date: req.body.date?req.body.date:new Date()
   });
 
   Person.findById(req.params._id,(err,data)=>{
