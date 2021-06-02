@@ -121,18 +121,18 @@ var ExerciseModel = mongoose.model("ExerciseModel",new mongoose.Schema({
 
 app.post("/api/users/:_id/exercises",(req,res)=>{
   let eDate;
-  if(req.body.date){
-    eDate = req.body.date;
-  }else{
-    eDate = new Date().toDateString();
-  }
+  // if(req.body.date){
+  //   eDate = req.body.date;
+  // }else{
+  //   eDate = new Date().toDateString();
+  // }
   let userId = req.params._id;
-  let {description,duration} = req.body;
+  let {description,duration,date} = req.body;
   let newExercise = new ExerciseModel({
     userId,
     description,
     duration,
-    eDate
+    date
   });
 
   Person.findById(req.params._id,(err,data)=>{
@@ -142,7 +142,7 @@ app.post("/api/users/:_id/exercises",(req,res)=>{
       let username = data.username;
       newExercise.save((err,data)=>{
         if(err) return console.log(err);
-        res.json({userId,username,description,duration,eDate});
+        res.json({userId,username,description,duration,date});
       });
     }
   });
