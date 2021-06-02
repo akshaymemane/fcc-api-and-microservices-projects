@@ -120,11 +120,17 @@ var ExerciseModel = mongoose.model("ExerciseModel",new mongoose.Schema({
 }));
 
 app.post("/api/users/:_id/exercises",(req,res)=>{
+  let eDate;
+  if(req.body.date){
+    eDate = req.body.date;
+  }else{
+    eDate = new Date().toDateString();
+  }
   let newExercise = new ExerciseModel({
     userId:req.params._id,
     description: req.body.description,
     duration: req.body.duration,
-    date: req.body.date?req.body.date:new Date()
+    date: eDate
   });
 
   Person.findById(req.params._id,(err,data)=>{
@@ -134,7 +140,7 @@ app.post("/api/users/:_id/exercises",(req,res)=>{
       let username = data.username;
       newExercise.save((err,data)=>{
         if(err) return console.log(err);
-        res.send({userId:data.userId,username:username,description:data.description,duration:data.duration,date:data.date});
+        res.send({userId:data.userId,username:username,description:data.description,duration:data.duration,date:eDate});
       });
     }
   });
