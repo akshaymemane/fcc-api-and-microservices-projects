@@ -126,11 +126,13 @@ app.post("/api/users/:_id/exercises",(req,res)=>{
   }else{
     eDate = new Date().toDateString();
   }
+  let userId = req.params._id;
+  let {description,duration} = req.body;
   let newExercise = new ExerciseModel({
-    userId:req.params._id,
-    description: req.body.description,
-    duration: req.body.duration,
-    date: eDate
+    userId,
+    description,
+    duration,
+    eDate
   });
 
   Person.findById(req.params._id,(err,data)=>{
@@ -140,7 +142,7 @@ app.post("/api/users/:_id/exercises",(req,res)=>{
       let username = data.username;
       newExercise.save((err,data)=>{
         if(err) return console.log(err);
-        res.send({userId:data.userId,username:username,description:data.description,duration:data.duration,date:eDate});
+        res.json({userId,username,description,duration,eDate});
       });
     }
   });
