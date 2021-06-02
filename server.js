@@ -102,7 +102,7 @@ app.get('/api/shorturl/:url',(req,res)=>{
 //Exercise Tracker
 var Person = mongoose.model('Person',new mongoose.Schema({username:{type:String,unique:true}}));
 
-app.post("/api/users",(req,res)=>{
+app.post("/api/newuser",(req,res)=>{
   let newUser = new Person({username : req.body.username});
   newUser.save((err,data)=>{
     if(err){
