@@ -123,6 +123,7 @@ app.post("/api/users/:_id/exercises",(req,res)=>{
   let userId = req.params._id;
   let {description,duration,date} = req.body;
   date = date?new Date(date).toDateString():new Date().toDateString();
+  duration = parseInt(duration);
   console.log("date=>",date);
   let newExercise = new ExerciseModel({
     userId,
