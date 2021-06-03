@@ -120,17 +120,9 @@ var ExerciseModel = mongoose.model("ExerciseModel",new mongoose.Schema({
 }));
 
 app.post("/api/users/:_id/exercises",(req,res)=>{
-  let eDate;
-  // if(req.body.date){
-  //   eDate = req.body.date;
-  // }else{
-  //   eDate = new Date().toDateString();
-  // }
-
-  
   let userId = req.params._id;
   let {description,duration,date} = req.body;
-  date = date?new Date(date):new Date();
+  date = date?new Date(date).toDateString():new Date().toDateString();
   console.log("date=>",date);
   let newExercise = new ExerciseModel({
     userId,
