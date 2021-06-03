@@ -137,7 +137,7 @@ app.post("/api/users/:_id/exercises",(req,res)=>{
     }else{
       let username = data.username;
       newExercise.save((err,data)=>{
-        res.json({userId,username,description,duration,date});
+        res.json({username,description,duration,_id:userId,date});
       });
     }
   });
